@@ -89,11 +89,6 @@ document.getElementById("amigo").addEventListener("keypress", function(eveng) {
 
 ## Licença
 
-Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
-
-## Licença
-
 Este projeto é licenciado sob a Licença MIT. Veja abaixo os termos:
 
 MIT License
