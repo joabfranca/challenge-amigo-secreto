@@ -83,7 +83,7 @@ document.getElementById("amigo").addEventListener("keypress", function(eveng) {
 
 ## Video demonstrativo
 
-![Texto alternativo do GIF](assets/nome_do_gif.gif)
+![Demonstrativo](video_demonstrativo.gif)
 
 
 
