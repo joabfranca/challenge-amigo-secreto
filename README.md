@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-=======
 
->>>>>>> 1bb9eff551743f19aedd7fe49c93f3429dd8d2ae
 # Sorteio de Amigo Secreto
 
 Este é um simples sistema de sorteio de amigo secreto. O código permite adicionar nomes à lista e, em seguida, sortear aleatoriamente um nome para o amigo secreto.
@@ -15,69 +12,11 @@ Este é um simples sistema de sorteio de amigo secreto. O código permite adicio
 
 ## Como Usar
 
-1. Abra o arquivo HTML em um navegador.
+1. Abra o link em um navegador.
+     https://challenge-amigo-secreto-umber.vercel.app/
 2. Adicione o nome do amigo no campo de texto.
 3. Clique no botão "Adicionar Amigo" ou pressione a tecla **Enter** para adicionar à lista.
 4. Clique no botão "Sortear Amigo" para sortear um amigo secreto da lista.
-
-## Código
-
-```javascript
-let listaAmigoSecreto = [];
-
-function adicionarAmigo() {
-    let nomeAmigo = document.getElementById("amigo");
-    //console.log(amigo)
-
-    if (nomeAmigo.value.trim() === "") {
-        alert('Por favor, insira um nome válido.');
-        return;
-    }
-
-    if (listaAmigoSecreto.includes(nomeAmigo.value.trim())) {
-        alert('Este nome já foi adicionado na lista!');
-        return;
-
-    } else {
-        listaAmigoSecreto.push(nomeAmigo.value.trim());
-        limparCampo();
-        let listaNomes = document.getElementById('listaAmigos');
-        listaNomes.innerHTML = listaAmigoSecreto.join('<br>');
-        console.log(listaAmigoSecreto);
-
-    }
-}
-
-function sortearAmigo() {
-
-    if (listaAmigoSecreto.length === 0) {
-        alert('Sem nomes para sortear. Insira os nomes, para realizar o sorteio.');
-        return;
-    }
-    //Sorteia um nome aleatóriamente do array
-    let sorteioNome = listaAmigoSecreto[Math.floor(Math.random() * listaAmigoSecreto.length)];
-    let resultadoSorteio = document.getElementById('resultado');
-
-    let listaNomes = document.getElementById('listaAmigos');
-    //Apresenta o nome sorteado na tela
-    resultadoSorteio.innerHTML = `O amigo sorteado é: ${sorteioNome}`;
-
-}
-
-function limparCampo() {
-   let nomeAmigo = document.getElementById("amigo");
-    nomeAmigo.value = "";
-}
-
-//Implementado a adição dos nomes pela tecla "Enter"
-document.getElementById("amigo").addEventListener("keypress", function(eveng) {
-    if (event.key === "Enter") {
-        event.preventDefault();
-        adicionarAmigo();
-    }
-});
-
-````
 
 ## Tecnologias Usadas
 
@@ -104,11 +43,4 @@ Permissão é concedida, gratuitamente, a qualquer pessoa que obtenha uma cópia
 A permissão acima deve ser incluída em todas as cópias ou partes substanciais do Software.
 
 O Software é fornecido "como está", sem garantia de qualquer tipo, expressa ou implícita, incluindo, mas não se limitando a, garantias de comercialização, adequação a um fim específico e não violação. Em nenhum caso os autores ou detentores dos direitos autorais serão responsáveis por qualquer reclamação, danos ou outra responsabilidade, seja em uma ação de contrato, delito ou outro, decorrente de, fora de ou em conexão com o Software ou o uso ou outros negócios no Software.
-<<<<<<< HEAD
 
-
-
-
-
-=======
->>>>>>> 1bb9eff551743f19aedd7fe49c93f3429dd8d2ae
