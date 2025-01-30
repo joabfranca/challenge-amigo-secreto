@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> 1bb9eff551743f19aedd7fe49c93f3429dd8d2ae
 # Sorteio de Amigo Secreto
 
 Este é um simples sistema de sorteio de amigo secreto. O código permite adicionar nomes à lista e, em seguida, sortear aleatoriamente um nome para o amigo secreto.
@@ -100,8 +104,11 @@ Permissão é concedida, gratuitamente, a qualquer pessoa que obtenha uma cópia
 A permissão acima deve ser incluída em todas as cópias ou partes substanciais do Software.
 
 O Software é fornecido "como está", sem garantia de qualquer tipo, expressa ou implícita, incluindo, mas não se limitando a, garantias de comercialização, adequação a um fim específico e não violação. Em nenhum caso os autores ou detentores dos direitos autorais serão responsáveis por qualquer reclamação, danos ou outra responsabilidade, seja em uma ação de contrato, delito ou outro, decorrente de, fora de ou em conexão com o Software ou o uso ou outros negócios no Software.
+<<<<<<< HEAD
 
 
 
 
 
+=======
+>>>>>>> 1bb9eff551743f19aedd7fe49c93f3429dd8d2ae
