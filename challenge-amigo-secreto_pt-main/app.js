@@ -20,7 +20,7 @@ function adicionarAmigo() {
         listaNomes.innerHTML = listaAmigoSecreto.join('<br>');
         console.log(listaAmigoSecreto);
 
-    }
+    }       //OBS. REALIZAR UMA VALIDAÇÃO PARA NAO ACEITAR NUMEROS, APENAS NOME
 
 }
 
