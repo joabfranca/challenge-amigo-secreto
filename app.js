@@ -2,7 +2,6 @@ let listaAmigoSecreto = [];
 
 function adicionarAmigo() {
     let nomeAmigo = document.getElementById("amigo");
-    //console.log(amigo)
 
     if (nomeAmigo.value.trim() === "") {
         alert('Por favor, insira um nome válido.');
@@ -13,6 +12,11 @@ function adicionarAmigo() {
         alert('Este nome já foi adicionado na lista!');
         return;
 
+    }
+        if (/\d/.test(nomeAmigo.value)) { // Verifica se há números
+            alert('O nome não pode conter números.');
+            return;
+        
     } else {
         listaAmigoSecreto.push(nomeAmigo.value.trim());
         limparCampo();
@@ -20,8 +24,7 @@ function adicionarAmigo() {
         listaNomes.innerHTML = listaAmigoSecreto.join('<br>');
         console.log(listaAmigoSecreto);
 
-    }       //OBS. REALIZAR UMA VALIDAÇÃO PARA NAO ACEITAR NUMEROS, APENAS NOME
-
+    }      
 }
 
 function sortearAmigo() {
